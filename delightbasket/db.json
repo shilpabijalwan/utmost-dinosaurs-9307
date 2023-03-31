@@ -1,0 +1,241 @@
+{
+  "mango": [
+    {
+      "id": 1,
+      "brand": "Fresho",
+      "name": "Totapuri Mango",
+      "categories": "Mango",
+      "price": 48,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000590_11-fresho-totapuri-mango.jpg",
+      "Quantity": 1,
+
+      "description": "With a parrot-like beak at the fruit tip, greenish yellow skinned Totapuri is a perfect blend of sweetness and tartness.It has a rich aromatic flavour.",
+      "Benefits": "Good for blood and reduces weight It is rich in anti-oxidants."
+    },
+    {
+      "id": 2,
+      "categories": "Mango",
+      "brand": "bb Combo",
+      "name": "Raw Mango",
+      "price": 86.57,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/10000588_12-fresho-raw-mango.jpg",
+      "Benefits": "Raw mangoes are rich source of Vitamin C, thus it is helpful to cure bleeding gums.Eating piece of raw mango helps to overcome constipation, loose motions and indigestion.",
+      "description": "About the Product Raw mango is a sweet-smelling fruit which is liked by al for its tart flavor The colour varies in shades of greens and the inner flesh is white in colour. Its potent health benefits makes totapuri mango puree concentrate -an important food item It is very rich in Vitamin C. They also have trace amounts of Vitamin B K and E Product image shown is for representation purpose only the actually product may vary based on season produce & availability",
+
+      "Quantity": 1
+    },
+    {
+      "id": 3,
+      "brand": "bb Combo",
+      "name": "Mango - Banganpalli",
+      "price": 351,
+      "categories": "Mango",
+
+      "image": "https://www.bigbasket.com/media/uploads/p/s/1200345_2-bb-combo-mango-banganpalli.jpg",
+
+      "description": "Banganpalli are sourced from Andhra Pradesh and known for their unique sweet and rich taste. They are moderately juicy and aromatic with a maize-yellow colour.",
+
+      "Quantity": 3
+    },
+    {
+      "id": 4,
+      "categories": "Mango",
+      "brand": "Fresho",
+      "name": " Lalbagh Mango",
+      "price": 137,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/10000306_3-fresho-lalbagh-mango-sindhura.jpg",
+
+      "description": "Popularly known as Rajgira in Karnataka, the soft and juicy fleshed fruit has a distinct appearance with shades of green and red.It is also known as 'Honey Mango' because of its exceptional flavour and sweetness..",
+      "Quantity": 1,
+      "Benefits": "Raw mangoes are rich source of Vitamin C, thus it is helpful to cure bleeding gums.Eating piece of raw mango helps to overcome constipation, loose motions and indigestion."
+    },
+    {
+      "id": 5,
+      "categories": "Mango",
+      "brand": "bb Combo",
+      "name": " Mango - Alphonso",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "price": 661,
+      "image": "https://www.bigbasket.com/media/uploads/p/s/30001006_8-fresho-alphonso-mango-ratnagiri.jpg",
+
+      "description": "Ratnagiri Alphonso Mangoes are superior variety mangoes with regard to its sweetness and aroma.They get their unique fragrance from the salty sea breeze and agro-climatic conditions prevailing in the hills of Ratnagiri.This fruit is bright golden yellow in colour and is oval in shape. We source the best carbide-free Alphonsos directly from the farms of Ratnagiri, Maharashtra.",
+      "Quantity": "6 pcs",
+      "Benefits": "Mangoes are known as the KingFruits because they are loaded with phytochemicals, polyphenols, vitaminscarotenoids, antioxidants, omega-3 and 6 Rich in antioxidants, iron and vitamins, especially A and C, they are great for pregnant women, anaemic and heart patients Regular consumption of mangoes can improve bowel movements and improve digestion"
+    },
+    {
+      "id": 6,
+      "categories": "Mango",
+      "brand": "Fresho",
+      "name": "Mango Tothapuri - Organically Grown",
+      "price": 52.47,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/40022249_1-fresho-mango-tothapuri-organically-grown.jpg",
+
+      "description": "These varieties of Mangoes are grown organically, Naturally ripened through hay. Product image shown is for representation purpose only, the actually product may vary based on season, produce & availability.",
+      "Quantity": 1
+    },
+    {
+      "id": 7,
+      "brand": "Fresho",
+      "categories": "Mango",
+      "name": "Raspuri/Gola Mango",
+      "price": 88.6,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/10000300_3-fresho-raspurigola-mango.jpg",
+
+      "description": "Popularly grown in the Mysore region of Karnataka, Raspuri mangoes have a juicy flesh with rich sweet taste and an excellent flavour.",
+      "Benefits": "Mangoes are known as the KingFruits because they are loaded with phytochemicals, polyphenols, vitaminscarotenoids, antioxidants, omega-3 and 6 Rich in antioxidants, iron and vitamins, especially A and C, they are great for pregnant women, anaemic and heart patients Regular consumption of mangoes can improve bowel movements and improve digestion",
+      "Quantity": 1
+    }
+  ],
+  "dryfruit": [
+    {
+      "id": 1,
+      "name": "Cashew/Godambi - Whole",
+      "brand": "BB Popular",
+      "price": 400,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/10000551_10-bb-popular-cashewkaju-whole.jpg",
+
+      "description": "Whole kaju or cashew from the house of bb Popular are absolutely delicious and crunchy; this popular snack is loaded with nutritional values. It is said that a handful of cashews can be really good for your health as it has sufficient amounts of phosphorus, manganese, copper and magnesium.Cashews, unlike other oily tree nuts, contain starch which comprises 10% of their weight. This actually helps them to be more effective in dishes like milk-based desserts, stews and soups.",
+      "Benefits ": "Loaded with zinc, iron, copper and manganese, the cashew nuts add a creamy texture to any dish; however, it never overpowers the flavour of any other ingredient. It is known to increase joint flexibility,",
+
+      "Quantity": "500g"
+    },
+    {
+      "id": 2,
+      "name": "Almond/Badam - Californian, Giri",
+      "price": 335,
+      "brand": "BB Royal",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/10000549_14-bb-popular-almondbadam-californian-giri.jpg",
+      "description": "Almonds are light brown skinned, tough, edible seeds of the almond fruit.They have a wealthy yet subtle bitter-sweet flavor. These are assets of nutrients, especially protein, dietary fibre, mono-unsaturated fatty acids and B complex vitamins. Also, it is wealthy in vitamin E and minerals such as potassium, calcium, manganese, zinc, iron and selenium.",
+      "Quantity": "500g",
+      "Benefits": "These seeds, being so nutritious promote wellness and possess anti-carcinogenic antioxidant and anti-inflammatory properties. They help treat iron deficiency and menopause, and also hel"
+    },
+    {
+      "id": 3,
+      "name": "Organic - Almond/Badam",
+      "price": 523,
+      "brand": "BB Royal",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/40101871_11-bb-royal-organic-almondbadam.jpg",
+      "description": "BB Royal Organic Almonds are of Indian Origin almonds and are sourced from certified organic farms. Straight from our farmer’s fields and into your pantry, almonds are a rich source of Omega-3, antioxidants, vitamins, calcium, iron and magnesium. One of the few nuts having the highest level of good fat that can lower cholesterol levels, almonds should be eaten every day. Considered brain food for kids, almonds can be eaten as is, soaked & peeled or added as a garnish to milk and desserts.",
+      "Quantity": "500g",
+      "Benefits": "Almonds deliver a massive amount of nutrients. Almonds are loaded with antioxidants.Almonds are high in Vitamin E."
+    },
+    {
+      "id": 4,
+      "name": "Walnut/Akhrot - Kernels",
+      "price": 278,
+      "brand": "BB Popular",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/10000537_12-bb-popular-walnutakhrot-kernels-chile.jpg",
+      "description": "Walnut Kernels not only add crunch and taste to a dish but they are loaded with nutritional benefits too. Walnut not only tastes great but is a rich source of heart-healthy, fats and an excellent source of those hard-to-find omega 3 fatty acids.",
+      "Quantity": "500g",
+      "Benefits": "Walnut is being crushed often to sprinkle over salads, desserts, particularly sundaes and other ice creams and are also used as seafood toppings."
+    },
+    {
+      "id": 5,
+      "name": "Raisins/Ona Drakshi - Indian",
+      "price": 293,
+      "brand": "BB Royal",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/40021404_10-bb-popular-raisinskishmish-indian.jpg",
+      "description": "It's safe to say that raisins are irreplaceable as a healthy member of the dry fruits category. These golden, green or black delicacies are favourites of almost everyone, particularly children. Raisins are widely used in cultural cooking around the world (especially in desserts) and are also added to health tonics, snacks and compact, high-energy food supplements for mountaineers, backpackers, and campers. By including raisins in your diet helps you increase the level of antioxidants in your system. Raisin varieties depend on the type of grape used and are made in a variety of sizes and colours including green, black, blue, purple and yellow. Value provides you with green raisin with lots of benefits.",
+      "Quantity": "500g",
+      "Benefits": "Raisins contain healthy vitamins and minerals. They are also fat-free and cholesterol-free, high in antioxidants, and an excellent source of fiber. It helps in increasing overall body health and immune system, malnutrition, disease or old age.If taken regularly it will improve body strength and endurance."
+    },
+    {
+      "id": 6,
+      "name": " Organic - Flax Seeds",
+      "price": 41,
+      "brand": "BB Popular",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/40072470_14-bb-royal-organic-flax-seeds.jpg",
+      "description": "Flaxseeds have a mild savor and are well-known for providing strong omega-3 fatty acids and fiber. They have a hard but soft and glossy outer shell. The color of this seed ranges from deep amber to reddish-brown. It has a lukewarm, type of silly and simple flavor.This is cultivated without the use of pesticides, artificial fertilizers or chemicals.",
+      "Quantity": "200g",
+      "Benefits": "Flaxseed is commonly used to improve digestive health or relieve constipation. Flaxseed may also help lower total blood cholesterol and low-density lipoprotein cholesterol"
+    },
+    {
+      "id": 7,
+      "name": "Almond/Badam - Californian, Giri Bol",
+      "price": 944,
+      "brand": "BB Royal",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/40088564_8-bb-royal-almondbadam-californian-giri.jpg",
+      "description": "California Almonds are bite-sized all-rounders when it comes to keeping you young & fit. It's food for the brain, keeping your memory sharp. They are packed full of nutrients.The wholesome constituents of these nuts provide the required amount of energy to the body and help maintain brain health.",
+      "Quantity": "500g",
+      "Benefits": "Almonds deliver a massive amount of nutrients. Almonds are loaded with antioxidants. Almonds are high in Vitamin E.Almonds can assist with blood sugar control.Almonds can lower cholesterol levels."
+    },
+    {
+      "id": 8,
+      "name": "Mixed Dry fruits",
+      "brand": "BB Royal",
+      "price": 639,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/10000532_5-bb-royal-raisinskishmish-seedless.jpg",
+      "description": "Mixed dry fruits are considered rich suppliers of nutrients and are real delicacies Fruits present in the pack are Almonds, Raisins, Figs, Plain Pista, and Cashews. Dry fruits are hygienically processed and made ready to be consumed raw or used in various food items to make them tasty.",
+      "Quantity": 1,
+      "Benefits": "Dry fruits are a great source of proteins, vitamins, minerals, dietary fiber, and an ideal substitute for high-calorie snacks.Rich in proteins, vitamins, minerals and dietary fiber, dry fruits make for a delicious and healthy snack."
+    },
+    {
+      "id": 9,
+      "name": "Cashew/Godambi - Whole",
+      "brand": "BB Royal",
+      "price": 1083,
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "https://www.bigbasket.com/media/uploads/p/s/40046738_6-bb-royal-cashewkaju-whole.jpg",
+      "description": "Cashews are a kidney-shaped seed sourced from the cashew tree. Cashews provide an excellent source of protein. Cashews are cholesterol-free and a great supply of antioxidants that will keep you away from heart diseases. The fat content in cashew nuts is low.",
+      "Quantity": 1,
+      "Benefits": "Dry fruits are a great source of proteins, vitamins, minerals, dietary fiber, and an ideal substitute for high-calorie snacks.Rich in proteins, vitamins, minerals and dietary fiber, dry fruits make for a delicious and healthy snack."
+    },
+    {
+      "id": 10,
+      "name": "",
+      "price": "",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "",
+      "description": "",
+      "Quantity": 1,
+      "Benefits": ""
+    },
+    {
+      "id": 1,
+      "brand": "",
+      "name": "",
+      "price": "",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "",
+      "description": "",
+      "Quantity": 1,
+      "Benefits": ""
+    },
+    {
+      "id": 1,
+      "name": "",
+      "price": "",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "",
+      "description": "",
+      "Quantity": 1,
+      "Benefits": ""
+    },
+    {
+      "id": 1,
+      "name": "",
+      "price": "",
+      "deliver": "Standard: Tomorrow 9:00AM - 1:30PM",
+      "image": "",
+      "description": "",
+      "Quantity": 1,
+      "Benefits": ""
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
