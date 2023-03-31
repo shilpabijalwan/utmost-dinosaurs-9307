@@ -1,6 +1,9 @@
 import React from "react";
 import { border, Center, Container, Icon } from "@chakra-ui/react";
 import { Example } from "./Footer/Footer";
+import { Link } from "react-router-dom";
+import { CategoriesList } from "./menu";
+
 import {
   Box,
   Flex,
@@ -42,26 +45,32 @@ const Navbar = () => {
           direction="row"
           spacing={4}
         >
-          <Button
-            colorScheme="teal"
-            variant="solid"
-            h={8}
-          >
-            SignUp
-          </Button>
-          <Button
-            rightIcon={<ArrowForwardIcon />}
-            colorScheme="teal"
-            variant="outline"
-            h={8}
-          >
-            LogIn
-          </Button>
+          <Link to="/signup">
+            <Button
+              colorScheme="teal"
+              variant="solid"
+              h={8}
+            >
+              SignUp
+            </Button>
+          </Link>
+          <Link to="/login">
+            <Button
+              rightIcon={<ArrowForwardIcon />}
+              colorScheme="teal"
+              variant="outline"
+              h={8}
+            >
+              LogIn
+            </Button>
+          </Link>
         </Stack>
       </Flex>
 
       <Box
-        boxShadow="md"
+        // border="2px solid red"
+        // boxShadow="md"
+        boxShadow="lg"
         bg="white"
         position={"sticky"}
         top={0}
@@ -71,11 +80,15 @@ const Navbar = () => {
         pr={30}
         justifyContent="space-around"
         mb={2}
+        zIndex={4}
       >
-        <img
-          src="DElight.png"
-          alt="name"
-        />
+        <Link to="/">
+          <img
+            // width={200}
+            src="DElight.png"
+            alt="name"
+          />
+        </Link>
         <Flex
           // border={"2px solid black"}
           w={"700px"}
@@ -126,23 +139,20 @@ const Navbar = () => {
           </Box>
         </HStack>
       </Box>
-      <HStack
+      {/* <HStack
         fontWeight="bold"
         boxShadow="md"
         p="1"
         gap={4}
         w={"90%"}
         m={"auto"}
-        mb={20}
       >
-        <Box bg="teal">
+        <Box>
           <Text
-            p={1}
             pl={1}
             pr={1}
-            color="white"
           >
-            SHOP BY CATEGORY
+            <CategoriesList />
           </Text>
         </Box>
         <Box
@@ -167,9 +177,54 @@ const Navbar = () => {
         >
           <Example />
         </Text>
-      </HStack>
+      </HStack> */}
+      {/* <Thirdline /> */}
     </>
   );
 };
 
 export default Navbar;
+
+export function Thirdline() {
+  return (
+    <HStack
+      fontWeight="bold"
+      boxShadow="md"
+      p="1"
+      gap={4}
+      w={"90%"}
+      m={"auto"}
+    >
+      <Box>
+        <Text
+          pl={1}
+          pr={1}
+        >
+          <CategoriesList />
+        </Text>
+      </Box>
+      <Box
+        display={"Flex"}
+        _hover={{
+          bg: "teal",
+        }}
+      >
+        <Text
+          p={"3px"}
+          pr={7}
+          pl={7}
+        >
+          Offers
+        </Text>
+      </Box>
+      <Text
+        p={"3px"}
+        pr={7}
+        pl={7}
+        ml={30}
+      >
+        <Example />
+      </Text>
+    </HStack>
+  );
+}

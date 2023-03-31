@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "./navbar";
+import Navbar, { Thirdline } from "./navbar";
 import Footer from "./Footer/Footer";
 import { Footer1 } from "./Footer/Footer";
 import Brand from "./midpaet/Brand";
+import Slick, { Slick2 } from "./Slick";
 
 import FruitAndVegetable, {
   BankOffers,
@@ -16,10 +17,13 @@ import FruitAndVegetable, {
   Staple,
   TopOffers,
 } from "./midpaet/Middle";
+
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <Thirdline />
+      <Slick />
       <Secondline />
       <BankOffers />
       <MostPopular />
@@ -31,8 +35,8 @@ export default function Home() {
       <CleaningHousehold />
       <BeautyandHygiene />
       <HomeandKitchen />
+      <Slick2 />
       <Brand />
-
       <Footer />
       <Footer1 />
     </div>

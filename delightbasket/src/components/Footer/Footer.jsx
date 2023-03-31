@@ -158,7 +158,7 @@ export function Example() {
         colorScheme="pink"
         onClick={toggleColorMode}
       >
-        {name ? "Light theme" : "Dark theme"}
+        {name ? "Dark theme" : "Light theme"}
       </Button>
     </HStack>
   );
@@ -370,7 +370,10 @@ export function Footer1() {
         bg="gray"
         textAlign="center"
       >
-        <Text textAlign="center">
+        <Text
+          textAlign="center"
+          ml={"30%"}
+        >
           Copyright © 2022-2024 Supermarket Grocery Supplies Pvt Ltd Customer
           Support
         </Text>
