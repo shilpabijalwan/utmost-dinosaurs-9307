@@ -192,8 +192,10 @@ export function Thirdline() {
       boxShadow="md"
       p="1"
       gap={4}
-      w={"90%"}
+      w={"100%"}
       m={"auto"}
+      // border="1px solid blue"
+      px={12}
     >
       <Box>
         <Text
