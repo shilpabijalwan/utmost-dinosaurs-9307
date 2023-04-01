@@ -3,7 +3,7 @@ import Navbar, { Thirdline } from "./navbar";
 import Footer from "./Footer/Footer";
 import { Footer1 } from "./Footer/Footer";
 import Brand from "./midpaet/Brand";
-import Slick, { Slick2 } from "./Slick";
+import Slick, { GenericCarousel, Slick2 } from "./Slick";
 
 import FruitAndVegetable, {
   BankOffers,
@@ -28,8 +28,10 @@ export default function Home() {
       <BankOffers />
       <MostPopular />
       <TopOffers />
+      <GenericCarousel />
       <FruitAndVegetable />
       <Staple />
+
       <Beverages />
       <SnacksStore />
       <CleaningHousehold />
