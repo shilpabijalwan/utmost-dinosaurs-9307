@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import {
   Box,
   Flex,
@@ -14,7 +14,6 @@ import {
   ButtonGroup,
   Center,
   SimpleGrid,
-  Link,
   Container,
 } from "@chakra-ui/react";
 import { Grid, GridItem } from "@chakra-ui/react";
@@ -220,10 +219,12 @@ export function Staple() {
             bg: "white",
           }}
         >
-          <img
-            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_dry-fruits-staplesStorefront_m_480_250323_05.jpg"
-            alt=""
-          />
+          <Link to="/dryfruitproductpage">
+            <img
+              src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_dry-fruits-staplesStorefront_m_480_250323_05.jpg"
+              alt=""
+            />
+          </Link>
         </Box>
         <Box
           border={"1px solid RGBA(0, 0, 0, 0.04)"}
@@ -774,6 +775,7 @@ export function TopOffers() {
             bg: "white",
           }}
         >
+          {" "}
           <img
             src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/e8c51ca5-7a61-4b28-97a5-eacb8a8e3582/hp_dow-topoffersStorefront_m_480_250323_01.jpg"
             alt=""
@@ -838,7 +840,7 @@ export function MostPopular() {
         color={"brown"}
         mb={3}
       >
-        Top Offers
+        Most Popular
       </Heading>
       <hr />
       <SimpleGrid
@@ -858,10 +860,12 @@ export function MostPopular() {
             bg: "white",
           }}
         >
-          <img
-            src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/ee20c95c-230b-49a6-9386-63590af643b6/hp_fnv-mangoes_m_480_250323_01.jpg"
-            alt=""
-          />
+          <Link to="/mangos">
+            <img
+              src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/ee20c95c-230b-49a6-9386-63590af643b6/hp_fnv-mangoes_m_480_250323_01.jpg"
+              alt=""
+            />
+          </Link>
         </Box>
 
         <Box

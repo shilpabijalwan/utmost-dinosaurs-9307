@@ -139,46 +139,6 @@ const Navbar = () => {
           </Box>
         </HStack>
       </Box>
-      {/* <HStack
-        fontWeight="bold"
-        boxShadow="md"
-        p="1"
-        gap={4}
-        w={"90%"}
-        m={"auto"}
-      >
-        <Box>
-          <Text
-            pl={1}
-            pr={1}
-          >
-            <CategoriesList />
-          </Text>
-        </Box>
-        <Box
-          display={"Flex"}
-          _hover={{
-            bg: "teal",
-          }}
-        >
-          <Text
-            p={"3px"}
-            pr={7}
-            pl={7}
-          >
-            Offers
-          </Text>
-        </Box>
-        <Text
-          p={"3px"}
-          pr={7}
-          pl={7}
-          ml={30}
-        >
-          <Example />
-        </Text>
-      </HStack> */}
-      {/* <Thirdline /> */}
     </>
   );
 };
